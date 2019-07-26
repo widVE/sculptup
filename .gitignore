@@ -1,0 +1,32 @@
+#ignore all raws
+*.raw
+
+#ignore all pdbs
+*.pdb
+
+#ignore all idbs
+*.idb
+
+#ignore all objs
+*.obj
+
+#ignore all ilks
+*.ilk
+
+#ignore all zips
+*.zip
+
+#ignore all dlls
+*.dll
+
+#ignore all dats
+*.dat
+
+#ignore all mas
+*.ma
+
+#ignore all xmls
+*.xml
+
+#ignore all mesh
+*.mesh

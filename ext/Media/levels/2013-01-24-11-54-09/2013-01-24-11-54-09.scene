@@ -1,0 +1,58 @@
+<scene formatVersion="1.0">
+	<resourceLocations>
+		<resourceLocation type="FileSystem" name="..\ext\Media\levels\2013-01-24-11-54-09\mesh" recursive="false"/>
+	</resourceLocations>
+	<nodes>
+		<node name="2013-01-24-11-54-09_sculptedNode_0_parent">
+			<position x="2.460" y="0.293" z="0.727"/>
+			<scale x="0.500" y="0.500" z="0.500"/>
+			<rotation qw="1.000" qx="0.000" qy="0.000" qz="0.000"/>
+			<entity name="2013-01-24-11-54-09_sculptedNode_0" castShadows="true" receiveShadows="true" meshFile="sculptedMesh_0.mesh" physicsShape="None">
+				<subentities>
+					<subentity index="0" materialName="Simple_Perpixel"/>
+				</subentities>
+			</entity>
+		</node>
+		<node name="2013-01-24-11-54-09_sculptedNode_00_parent">
+			<position x="3.121" y="0.285" z="-0.316"/>
+			<scale x="0.500" y="0.500" z="0.500"/>
+			<rotation qw="1.000" qx="0.000" qy="0.000" qz="0.000"/>
+			<entity name="2013-01-24-11-54-09_sculptedNode_00" castShadows="true" receiveShadows="true" meshFile="sculptedMesh_0.mesh" physicsShape="None">
+				<subentities>
+					<subentity index="0" materialName="Simple_Perpixel"/>
+				</subentities>
+			</entity>
+		</node>
+		<node name="2013-01-24-11-54-09_sculptedNode_02_parent">
+			<position x="3.160" y="0.297" z="0.258"/>
+			<scale x="0.500" y="0.500" z="0.500"/>
+			<rotation qw="1.000" qx="0.000" qy="0.000" qz="0.000"/>
+			<entity name="2013-01-24-11-54-09_sculptedNode_02" castShadows="true" receiveShadows="true" meshFile="sculptedMesh_0.mesh" physicsShape="None">
+				<subentities>
+					<subentity index="0" materialName="Simple_Perpixel"/>
+				</subentities>
+			</entity>
+		</node>
+		<node name="2013-01-24-11-54-09_sculptedNode_03_parent">
+			<position x="3.160" y="0.297" z="0.258"/>
+			<scale x="0.500" y="0.500" z="0.500"/>
+			<rotation qw="1.000" qx="0.000" qy="0.000" qz="0.000"/>
+			<entity name="2013-01-24-11-54-09_sculptedNode_03" castShadows="true" receiveShadows="true" meshFile="sculptedMesh_0.mesh" physicsShape="None">
+				<subentities>
+					<subentity index="0" materialName="Simple_Perpixel"/>
+				</subentities>
+			</entity>
+		</node>
+		<node name="2013-01-24-11-54-09_sculptedNode_1_parent">
+			<position x="-0.731" y="0.085" z="-0.542"/>
+			<scale x="0.500" y="0.500" z="0.500"/>
+			<rotation qw="1.000" qx="0.000" qy="0.000" qz="0.000"/>
+			<entity name="2013-01-24-11-54-09_sculptedNode_1" castShadows="true" receiveShadows="true" meshFile="sculptedMesh_1.mesh" physicsShape="None">
+				<subentities>
+					<subentity index="0" materialName="Simple_Perpixel"/>
+				</subentities>
+			</entity>
+		</node>
+	</nodes>
+</scene>
+

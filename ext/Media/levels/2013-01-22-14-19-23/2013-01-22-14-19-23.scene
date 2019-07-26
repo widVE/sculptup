@@ -1,0 +1,18 @@
+<scene formatVersion="1.0">
+	<resourceLocations>
+		<resourceLocation type="FileSystem" name="..\ext\Media\levels\2013-01-22-14-19-23\mesh" recursive="false"/>
+	</resourceLocations>
+	<nodes>
+		<node name="2013-01-22-14-19-23_sculptedNode_0_parent">
+			<position x="2.380" y="0.943" z="-0.053"/>
+			<scale x="0.500" y="0.500" z="0.500"/>
+			<rotation qw="1.000" qx="0.000" qy="0.000" qz="0.000"/>
+			<entity name="2013-01-22-14-19-23_sculptedNode_0" castShadows="true" receiveShadows="true" meshFile="sculptedMesh_0.mesh" physicsShape="None">
+				<subentities>
+					<subentity index="0" materialName="Simple_Perpixel"/>
+				</subentities>
+			</entity>
+		</node>
+	</nodes>
+</scene>
+

@@ -1,0 +1,1516 @@
+<scene formatVersion="1.0">
+  <resourceLocations>
+    <resourceLocation type="FileSystem" name="V:\rtredinnick\Kitchen\ogre_test/mesh" recursive="false" />
+    <resourceLocation type="FileSystem" name="V:\rtredinnick\Kitchen\ogre_test/bitmap" recursive="false" />
+    <resourceLocation type="FileSystem" name="V:\rtredinnick\Kitchen\ogre_test/material" recursive="false" />
+  </resourceLocations>
+  <nodes>
+    <node name="ogre_kitchen">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="ogre_kitchen" castShadows="true" receiveShadows="true" meshFile="ogre_kitchen.mesh">
+        <subentities>
+          <subentity index="0" materialName="Color_007" />
+          <subentity index="1" materialName="lambert123" />
+          <subentity index="2" materialName="lambert74" />
+          <subentity index="3" materialName="lambert66" />
+          <subentity index="4" materialName="lambert93" />
+          <subentity index="5" materialName="lambert84" />
+          <subentity index="6" materialName="lambert53" />
+          <subentity index="7" materialName="lambert122" />
+          <subentity index="8" materialName="lambert86" />
+          <subentity index="9" materialName="lambert27" />
+          <subentity index="10" materialName="lambert96" />
+          <subentity index="11" materialName="SketchupDefault" />
+          <subentity index="12" materialName="lambert81" />
+          <subentity index="13" materialName="lambert39" />
+          <subentity index="14" materialName="lambert109" />
+          <subentity index="15" materialName="lambert36" />
+          <subentity index="16" materialName="lambert50" />
+          <subentity index="17" materialName="lambert118" />
+          <subentity index="18" materialName="lambert97" />
+          <subentity index="19" materialName="lambert26" />
+          <subentity index="20" materialName="lambert113" />
+          <subentity index="21" materialName="lambert82" />
+          <subentity index="22" materialName="lambert111" />
+          <subentity index="23" materialName="lambert25" />
+          <subentity index="24" materialName="lambert80" />
+          <subentity index="25" materialName="lambert103" />
+          <subentity index="26" materialName="lambert54" />
+          <subentity index="27" materialName="lambert24" />
+          <subentity index="28" materialName="lambert98" />
+          <subentity index="29" materialName="lambert110" />
+          <subentity index="30" materialName="lambert117" />
+          <subentity index="31" materialName="lambert57" />
+          <subentity index="32" materialName="lambert38" />
+          <subentity index="33" materialName="lambert99" />
+          <subentity index="34" materialName="lambert100" />
+          <subentity index="35" materialName="lambert28" />
+          <subentity index="36" materialName="lambert125" />
+          <subentity index="37" materialName="lambert119" />
+          <subentity index="38" materialName="lambert106" />
+          <subentity index="39" materialName="lambert48" />
+          <subentity index="40" materialName="lambert35" />
+          <subentity index="41" materialName="lambert87" />
+          <subentity index="42" materialName="lambert78" />
+          <subentity index="43" materialName="lambert120" />
+          <subentity index="44" materialName="lambert7" />
+          <subentity index="45" materialName="lambert112" />
+          <subentity index="46" materialName="lambert59" />
+          <subentity index="47" materialName="lambert72" />
+          <subentity index="48" materialName="Transparent_Grey" />
+          <subentity index="49" materialName="lambert56" />
+          <subentity index="50" materialName="Transparent_Grey1" />
+          <subentity index="51" materialName="lambert55" />
+          <subentity index="52" materialName="lambert79" />
+          <subentity index="53" materialName="lambert85" />
+          <subentity index="54" materialName="lambert40" />
+          <subentity index="55" materialName="lambert60" />
+          <subentity index="56" materialName="lambert67" />
+          <subentity index="57" materialName="lambert2" />
+          <subentity index="58" materialName="lambert108" />
+          <subentity index="59" materialName="lambert124" />
+          <subentity index="60" materialName="lambert58" />
+          <subentity index="61" materialName="lambert69" />
+          <subentity index="62" materialName="lambert41" />
+          <subentity index="63" materialName="lambert121" />
+          <subentity index="64" materialName="lambert83" />
+          <subentity index="65" materialName="lambert30" />
+          <subentity index="66" materialName="lambert23" />
+          <subentity index="67" materialName="lambert70" />
+          <subentity index="68" materialName="lambert76" />
+          <subentity index="69" materialName="lambert102" />
+          <subentity index="70" materialName="lambert77" />
+          <subentity index="71" materialName="lambert37" />
+          <subentity index="72" materialName="lambert107" />
+          <subentity index="73" materialName="lambert101" />
+          <subentity index="74" materialName="lambert68" />
+        </subentities>
+      </entity>
+    <node name="cabinet_sink_door_1">
+      <position x="-8.06303565042824" y="0.000913323753425433" z="8.11946225065419" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="cabinet_sink_door_1" castShadows="true" receiveShadows="true" meshFile="cabinet_sink_door_1.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert3" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="sink_drawer_2">
+      <position x="-8.06303565042824" y="0.000913323753425433" z="8.11946225065419" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="sink_drawer_2" castShadows="true" receiveShadows="true" meshFile="sink_drawer_2.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert4" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="butcher_block_3">
+      <position x="-8.06303565042824" y="0.000913323753425433" z="8.11946225065419" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="butcher_block_3" castShadows="true" receiveShadows="true" meshFile="butcher_block_3.mesh">
+        <subentities>
+          <subentity index="0" materialName="SketchupDefault" />
+          <subentity index="1" materialName="lambert5" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="counter_4">
+      <position x="-8.06303565042824" y="0.000913323753425433" z="8.11946225065419" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="counter_4" castShadows="true" receiveShadows="true" meshFile="counter_4.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert6" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="default_object_5">
+      <position x="-8.06462315040794" y="-0.00047224157177161" z="8.11827376327385" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Apartment_Structures_GEODE_6">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Apartment_Structures_GEODE_6" castShadows="true" receiveShadows="true" meshFile="Apartment_Structures_GEODE_6.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert8" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Lights_001_GEODE_7">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Lights_001_GEODE_7" castShadows="true" receiveShadows="true" meshFile="Lights_001_GEODE_7.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Group_021_GEODE_8">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Group_021_GEODE_8" castShadows="true" receiveShadows="true" meshFile="Group_021_GEODE_8.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Group_023_GEODE_9">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Group_023_GEODE_9" castShadows="true" receiveShadows="true" meshFile="Group_023_GEODE_9.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Group_025_GEODE_10">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Group_025_GEODE_10" castShadows="true" receiveShadows="true" meshFile="Group_025_GEODE_10.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Group_027_GEODE_11">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Group_027_GEODE_11" castShadows="true" receiveShadows="true" meshFile="Group_027_GEODE_11.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Group_040_GEODE_12">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Group_040_GEODE_12" castShadows="true" receiveShadows="true" meshFile="Group_040_GEODE_12.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Group_041_GEODE_13">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Group_041_GEODE_13" castShadows="true" receiveShadows="true" meshFile="Group_041_GEODE_13.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="livingroom_lightswitch_r_GEODE_14">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="livingroom_lightswitch_r_GEODE_14" castShadows="true" receiveShadows="true" meshFile="livingroom_lightswitch_r_GEODE_14.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Group_045_GEODE_15">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Group_045_GEODE_15" castShadows="true" receiveShadows="true" meshFile="Group_045_GEODE_15.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Group_046_GEODE_16">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Group_046_GEODE_16" castShadows="true" receiveShadows="true" meshFile="Group_046_GEODE_16.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Group_047_GEODE_17">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Group_047_GEODE_17" castShadows="true" receiveShadows="true" meshFile="Group_047_GEODE_17.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Group_050_GEODE_18">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Group_050_GEODE_18" castShadows="true" receiveShadows="true" meshFile="Group_050_GEODE_18.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Group_052_GEODE_19">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Group_052_GEODE_19" castShadows="true" receiveShadows="true" meshFile="Group_052_GEODE_19.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Group_053_GEODE_20">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Group_053_GEODE_20" castShadows="true" receiveShadows="true" meshFile="Group_053_GEODE_20.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Group_054_GEODE_21">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Group_054_GEODE_21" castShadows="true" receiveShadows="true" meshFile="Group_054_GEODE_21.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_22">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_22" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_22.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_1_23">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_1_23" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_1_23.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_2_24">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_2_24" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_2_24.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_3_25">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_3_25" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_3_25.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_4_26">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_4_26" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_4_26.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_5_27">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_5_27" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_5_27.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_6_28">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_6_28" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_6_28.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_7_29">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_7_29" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_7_29.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_8_30">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_8_30" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_8_30.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_9_31">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_9_31" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_9_31.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_10_32">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_10_32" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_10_32.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_11_33">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_11_33" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_11_33.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_12_34">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_12_34" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_12_34.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_13_35">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_13_35" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_13_35.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_14_36">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_14_36" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_14_36.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_15_37">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_15_37" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_15_37.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_16_38">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_16_38" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_16_38.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_17_39">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_17_39" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_17_39.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_18_40">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_18_40" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_18_40.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_19_41">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_19_41" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_19_41.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_20_42">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_20_42" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_20_42.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_21_43">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_21_43" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_21_43.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_22_44">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_22_44" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_22_44.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_23_45">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_23_45" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_23_45.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_24_46">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_24_46" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_24_46.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_25_47">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_25_47" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_25_47.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_26_48">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_26_48" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_26_48.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_27_49">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_27_49" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_27_49.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_28_50">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_28_50" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_28_50.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_29_51">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_29_51" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_29_51.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_30_52">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_30_52" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_30_52.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_31_53">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_31_53" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_31_53.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_32_54">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_32_54" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_32_54.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_33_55">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_33_55" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_33_55.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Balcony_Bar_035_GEODE_ncl1_34_56">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Balcony_Bar_035_GEODE_ncl1_34_56" castShadows="true" receiveShadows="true" meshFile="Balcony_Bar_035_GEODE_ncl1_34_56.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Ceiling_b_GEODE_57">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Ceiling_b_GEODE_57" castShadows="true" receiveShadows="true" meshFile="Ceiling_b_GEODE_57.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert9" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Ceiling_GEODE_58">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Ceiling_GEODE_58" castShadows="true" receiveShadows="true" meshFile="Ceiling_GEODE_58.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert10" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Wall_Switches_Plate_GEODE_59">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Wall_Switches_Plate_GEODE_59" castShadows="true" receiveShadows="true" meshFile="Wall_Switches_Plate_GEODE_59.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert11" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Living_Painting_1_GEODE_60">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Living_Painting_1_GEODE_60" castShadows="true" receiveShadows="true" meshFile="Living_Painting_1_GEODE_60.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert12" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Door_Laundry_GEODE_61">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Door_Laundry_GEODE_61" castShadows="true" receiveShadows="true" meshFile="Door_Laundry_GEODE_61.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert13" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="WindowFrame_Kitchen_Bot_GEODE_62">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="WindowFrame_Kitchen_Bot_GEODE_62" castShadows="true" receiveShadows="true" meshFile="WindowFrame_Kitchen_Bot_GEODE_62.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert14" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="WindowFrame_Kitchen_Top_GEODE_63">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="WindowFrame_Kitchen_Top_GEODE_63" castShadows="true" receiveShadows="true" meshFile="WindowFrame_Kitchen_Top_GEODE_63.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert15" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Bathroom_Door_GEODE_64">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Bathroom_Door_GEODE_64" castShadows="true" receiveShadows="true" meshFile="Bathroom_Door_GEODE_64.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert16" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Bedroom_Door_GEODE_65">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Bedroom_Door_GEODE_65" castShadows="true" receiveShadows="true" meshFile="Bedroom_Door_GEODE_65.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert17" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Main_Door_GEODE_66">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Main_Door_GEODE_66" castShadows="true" receiveShadows="true" meshFile="Main_Door_GEODE_66.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert18" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="livingroom_lightswitch_l_GEODE_67">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="livingroom_lightswitch_l_GEODE_67" castShadows="true" receiveShadows="true" meshFile="livingroom_lightswitch_l_GEODE_67.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Door_Balcony_L_GEODE_68">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Door_Balcony_L_GEODE_68" castShadows="true" receiveShadows="true" meshFile="Door_Balcony_L_GEODE_68.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert19" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Door_Balcony_R_GEODE_69">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Door_Balcony_R_GEODE_69" castShadows="true" receiveShadows="true" meshFile="Door_Balcony_R_GEODE_69.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert20" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Closet_Door_L_GEODE_70">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Closet_Door_L_GEODE_70" castShadows="true" receiveShadows="true" meshFile="Closet_Door_L_GEODE_70.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert21" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Closet_Door_R_GEODE_71">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Closet_Door_R_GEODE_71" castShadows="true" receiveShadows="true" meshFile="Closet_Door_R_GEODE_71.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert22" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_72">
+      <position x="-8.06462315041501" y="0.0" z="8.11958085655075" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Wall_hung_Corner_GEODE_73">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Wall_hung_Corner_GEODE_73" castShadows="true" receiveShadows="true" meshFile="Wall_hung_Corner_GEODE_73.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert31" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Deco_Plant_GEODE_74">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Deco_Plant_GEODE_74" castShadows="true" receiveShadows="true" meshFile="Deco_Plant_GEODE_74.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert32" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Deco_China_GEODE_75">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Deco_China_GEODE_75" castShadows="true" receiveShadows="true" meshFile="Deco_China_GEODE_75.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert33" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Vases_GEODE_76">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Vases_GEODE_76" castShadows="true" receiveShadows="true" meshFile="Vases_GEODE_76.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert34" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_77">
+      <position x="-8.06782409095522" y="0.00272798787778867" z="8.11678300079882" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Microwave_Base_GEODE_78">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Microwave_Base_GEODE_78" castShadows="true" receiveShadows="true" meshFile="Microwave_Base_GEODE_78.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert42" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_79">
+      <position x="-5.98486735300796" y="1.91270577891548" z="2.16912624814037" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Microwave_Inside_GEODE_80">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Microwave_Inside_GEODE_80" castShadows="true" receiveShadows="true" meshFile="Microwave_Inside_GEODE_80.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_81">
+      <position x="-8.08199629556878" y="-1.60019998729695e-006" z="8.55719270545826" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="StoolC_GEODE_82">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="StoolC_GEODE_82" castShadows="true" receiveShadows="true" meshFile="StoolC_GEODE_82.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert44" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Stool001_GEODE_83">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Stool001_GEODE_83" castShadows="true" receiveShadows="true" meshFile="Stool001_GEODE_83.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert45" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="StoolA_GEODE_84">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="StoolA_GEODE_84" castShadows="true" receiveShadows="true" meshFile="StoolA_GEODE_84.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert46" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="Kitchen_Photos_GEODE_85">
+      <position x="-8.08399434871335" y="0.0372755787129312" z="8.12285396050874" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Kitchen_Photos_GEODE_85" castShadows="true" receiveShadows="true" meshFile="Kitchen_Photos_GEODE_85.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert47" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="default_object_86">
+      <position x="-4.43373949503377" y="0.126328367202827" z="3.07059389824287" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Boiling_Pot_GEODE_87">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Boiling_Pot_GEODE_87" castShadows="true" receiveShadows="true" meshFile="Boiling_Pot_GEODE_87.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert49" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_88">
+      <position x="-4.71588000195958" y="0.699597584051404" z="2.78158374252607" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="0.382683432365197" qx="0.0" qy="0.923879532511242" qz="-0.0" />
+    <node name="Cabinet_Drawer_Left_GEODE_89">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Cabinet_Drawer_Left_GEODE_89" castShadows="true" receiveShadows="true" meshFile="Cabinet_Drawer_Left_GEODE_89.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert51" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="Cabinet_Drawer_Right_GEODE_90">
+      <position x="-4.4450622790105" y="0.699738639586811" z="3.0575025696684" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="0.382683432365266" qx="0.0" qy="0.923879532511214" qz="-0.0" />
+      <entity name="Cabinet_Drawer_Right_GEODE_90" castShadows="true" receiveShadows="true" meshFile="Cabinet_Drawer_Right_GEODE_90.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert52" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="default_object_91">
+      <position x="-7.13799240205675" y="2.13405115993476" z="2.32329298058586" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Bowls_Small_C_GEODE_92">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Bowls_Small_C_GEODE_92" castShadows="true" receiveShadows="true" meshFile="Bowls_Small_C_GEODE_92.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert61" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_93">
+      <position x="-7.40555408266188" y="2.13405115993476" z="2.36202730553375" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Bowls_Small_B_GEODE_94">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Bowls_Small_B_GEODE_94" castShadows="true" receiveShadows="true" meshFile="Bowls_Small_B_GEODE_94.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert62" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_95">
+      <position x="-7.80088690035805" y="2.13477671762881" z="2.36096234968063" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Bowls_Small_A_GEODE_96">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Bowls_Small_A_GEODE_96" castShadows="true" receiveShadows="true" meshFile="Bowls_Small_A_GEODE_96.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert63" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_97">
+      <position x="-7.2758718769114" y="2.13405115993476" z="2.30368329644566" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Bowls_Small_C_GEODE_98">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Bowls_Small_C_GEODE_98" castShadows="true" receiveShadows="true" meshFile="Bowls_Small_C_GEODE_98.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert61" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_99">
+      <position x="-4.98834507164063" y="1.8612307723999" z="2.31066479427272" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Bowls_Small_B_GEODE_100">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Bowls_Small_B_GEODE_100" castShadows="true" receiveShadows="true" meshFile="Bowls_Small_B_GEODE_100.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert62" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_101">
+      <position x="-4.86558154576044" y="1.8612307723999" z="2.35912251142375" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Bowls_Small_A_GEODE_102">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Bowls_Small_A_GEODE_102" castShadows="true" receiveShadows="true" meshFile="Bowls_Small_A_GEODE_102.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert63" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_103">
+      <position x="-5.10355285087502" y="1.8612307723999" z="2.35161029311871" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Bowls_Small_A_GEODE_104">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Bowls_Small_A_GEODE_104" castShadows="true" receiveShadows="true" meshFile="Bowls_Small_A_GEODE_104.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert63" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="Wall_HungA_DoorRight_GEODE_105">
+      <position x="-7.09550895137604" y="2.12966346161536" z="2.48161941055685" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Wall_HungA_DoorRight_GEODE_105" castShadows="true" receiveShadows="true" meshFile="Wall_HungA_DoorRight_GEODE_105.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert64" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Wall_HungA_DoorLeft_GEODE_106">
+      <position x="-7.88812205371674" y="2.13098310668321" z="2.48161941055685" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Wall_HungA_DoorLeft_GEODE_106" castShadows="true" receiveShadows="true" meshFile="Wall_HungA_DoorLeft_GEODE_106.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert65" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Cabinet_Door_LowerRight_GEODE_107">
+      <position x="-4.43423412975289" y="0.396582190530013" z="3.30380777256469" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="-0.382683432365102" qx="0.0" qy="0.923879532511282" qz="-0.0" />
+      <entity name="Cabinet_Door_LowerRight_GEODE_107" castShadows="true" receiveShadows="true" meshFile="Cabinet_Door_LowerRight_GEODE_107.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert71" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="default_object_108">
+      <position x="-5.31487159223939" y="2.00601738052368" z="2.3088462739917" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Formula_Lid_003_GEODE_109">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Formula_Lid_003_GEODE_109" castShadows="true" receiveShadows="true" meshFile="Formula_Lid_003_GEODE_109.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert73" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="Cabinet_Door_LowerLeft_GEODE_110">
+      <position x="-4.97502768561091" y="0.39699520757583" z="2.77681916533859" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="0.38268343236537" qx="0.0" qy="0.923879532511171" qz="-0.0" />
+      <entity name="Cabinet_Door_LowerLeft_GEODE_110" castShadows="true" receiveShadows="true" meshFile="Cabinet_Door_LowerLeft_GEODE_110.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert75" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="coffee_111">
+      <position x="-7.0242586384132" y="0.9248408429795" z="2.54159447317098" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="default_object_112">
+      <position x="-1.0226347694397" y="-0.930275387573242" z="5.61903567109512" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Coffee_Maker_GEODE_113">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Coffee_Maker_GEODE_113" castShadows="true" receiveShadows="true" meshFile="Coffee_Maker_GEODE_113.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert88" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_114">
+      <position x="-1.02508394000425" y="-0.930288387170628" z="5.6221232109695" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="CoffeeMaker_Lid_GEODE_115">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="CoffeeMaker_Lid_GEODE_115" castShadows="true" receiveShadows="true" meshFile="CoffeeMaker_Lid_GEODE_115.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert91" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_116">
+      <position x="-1.02305303096568" y="-0.92604294809406" z="5.62025384521484" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="CoffeeMaker_Filter_GEODE_117">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="CoffeeMaker_Filter_GEODE_117" castShadows="true" receiveShadows="true" meshFile="CoffeeMaker_Filter_GEODE_117.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert92" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_118">
+      <position x="-1.01992776508457" y="-0.932097103675742" z="5.62583581011819" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="CoffeePot_GEODE_119">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="CoffeePot_GEODE_119" castShadows="true" receiveShadows="true" meshFile="CoffeePot_GEODE_119.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert90" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_120">
+      <position x="-1.02527302619194" y="-0.930623969023444" z="5.62186833334239" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Group_096_GEODE_121">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Group_096_GEODE_121" castShadows="true" receiveShadows="true" meshFile="Group_096_GEODE_121.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert89" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    </node>
+    <node name="Freezer_Door_GEODE_122">
+      <position x="-7.81833250299333" y="1.5681928848583" z="2.90095920752971" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="0.707106781186577" qx="0.0" qy="0.707106781186518" qz="-0.0" />
+      <entity name="Freezer_Door_GEODE_122" castShadows="true" receiveShadows="true" meshFile="Freezer_Door_GEODE_122.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert94" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Wall_HungD_Door_Left_GEODE_123">
+      <position x="-5.58775922219677" y="2.01600649823274" z="2.47998223873477" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Wall_HungD_Door_Left_GEODE_123" castShadows="true" receiveShadows="true" meshFile="Wall_HungD_Door_Left_GEODE_123.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert29" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Wall_HungD_Door_Right_GEODE_124">
+      <position x="-4.78975204641382" y="2.01600683752529" z="2.48376427632854" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Wall_HungD_Door_Right_GEODE_124" castShadows="true" receiveShadows="true" meshFile="Wall_HungD_Door_Right_GEODE_124.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert95" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Fridge_Door_GEODE_125">
+      <position x="-7.81871072631634" y="0.70134680179138" z="2.8995440885527" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Fridge_Door_GEODE_125" castShadows="true" receiveShadows="true" meshFile="Fridge_Door_GEODE_125.mesh">
+        <subentities>
+          <subentity index="0" materialName="SketchupDefault" />
+          <subentity index="1" materialName="lambert104" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Fridge_Door_GEODE_126">
+      <position x="-7.81871072631634" y="0.70134680179138" z="2.8995440885527" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Fridge_Door_GEODE_126" castShadows="true" receiveShadows="true" meshFile="Fridge_Door_GEODE_126.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert105" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="default_object_127">
+      <position x="-7.63004240755843" y="1.02088609951912" z="2.4503294907655" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Pasta_Sauce_GEODE_128">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Pasta_Sauce_GEODE_128" castShadows="true" receiveShadows="true" meshFile="Pasta_Sauce_GEODE_128.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert114" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_129">
+      <position x="-7.63004240755843" y="1.02088609951912" z="2.4503294907655" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Pasta_Sauce_GEODE_130">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Pasta_Sauce_GEODE_130" castShadows="true" receiveShadows="true" meshFile="Pasta_Sauce_GEODE_130.mesh">
+        <subentities>
+          <subentity index="0" materialName="SketchupDefault" />
+          <subentity index="1" materialName="lambert115" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_131">
+      <position x="-7.63004240755843" y="1.02088609951912" z="2.4503294907655" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Pasta_Sauce_GEODE_132">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Pasta_Sauce_GEODE_132" castShadows="true" receiveShadows="true" meshFile="Pasta_Sauce_GEODE_132.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert115" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_133">
+      <position x="-7.63004240755843" y="1.02088609951912" z="2.4503294907655" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Pasta_Sauce_GEODE_134">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Pasta_Sauce_GEODE_134" castShadows="true" receiveShadows="true" meshFile="Pasta_Sauce_GEODE_134.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert116" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_135">
+      <position x="-5.98486735300796" y="1.91323701405316" z="2.16912624814037" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Microwave_Inside_GEODE_136">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Microwave_Inside_GEODE_136" castShadows="true" receiveShadows="true" meshFile="Microwave_Inside_GEODE_136.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert1" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_137">
+      <position x="-5.80320834013445" y="0.887271005487442" z="2.59506764457365" />
+      <scale x="1.26" y="1.0" z="1.26" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Group_056_GEODE_138">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Group_056_GEODE_138" castShadows="true" receiveShadows="true" meshFile="Group_056_GEODE_138.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert126" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_139">
+      <position x="-6.14703145916865" y="0.928546005487442" z="2.64961719110745" />
+      <scale x="0.85" y="1.0" z="0.85" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Group_056_GEODE_140">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Group_056_GEODE_140" castShadows="true" receiveShadows="true" meshFile="Group_056_GEODE_140.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert126" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_141">
+      <position x="-6.1546291874456" y="0.919435030603409" z="2.41208125719713" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Group_056_GEODE_142">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Group_056_GEODE_142" castShadows="true" receiveShadows="true" meshFile="Group_056_GEODE_142.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert126" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_143">
+      <position x="-5.78174331996317" y="0.863458505487442" z="2.30215687701344" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Group_056_GEODE_144">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Group_056_GEODE_144" castShadows="true" receiveShadows="true" meshFile="Group_056_GEODE_144.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert126" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="Warmer_Body_GEODE_145">
+      <position x="-6.51452387421764" y="1.55608521186952" z="2.37363809071056" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="0.707106781186548" qx="0.0" qy="-0.707106781186547" qz="-0.0" />
+      <entity name="Warmer_Body_GEODE_145" castShadows="true" receiveShadows="true" meshFile="Warmer_Body_GEODE_145.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert127" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Switch_GEODE_146">
+      <position x="-6.51589774688363" y="1.59756546962215" z="2.45789592194273" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="0.707106781186548" qx="0.0" qy="-0.707106781186547" qz="-0.0" />
+      <entity name="Switch_GEODE_146" castShadows="true" receiveShadows="true" meshFile="Switch_GEODE_146.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert131" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Filler_GEODE_147">
+      <position x="-6.5158448073547" y="1.64360628171496" z="2.43895556742653" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="0.707106781186548" qx="0.0" qy="-0.707106781186547" qz="-0.0" />
+      <entity name="Filler_GEODE_147" castShadows="true" receiveShadows="true" meshFile="Filler_GEODE_147.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert132" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Small_Nest_GEODE_148">
+      <position x="-6.51698058745299" y="1.69185837276821" z="2.36446226392261" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="-2.89664126018607e-013" qz="-0.0" />
+      <entity name="Small_Nest_GEODE_148" castShadows="true" receiveShadows="true" meshFile="Small_Nest_GEODE_148.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert128" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Large_Nest_GEODE_149">
+      <position x="-6.5146520052883" y="1.66909115931634" z="2.36853400959828" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="0.707106781186548" qx="0.0" qy="-0.707106781186547" qz="-0.0" />
+      <entity name="Large_Nest_GEODE_149" castShadows="true" receiveShadows="true" meshFile="Large_Nest_GEODE_149.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert129" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="TopCap_GEODE_150">
+      <position x="-6.51453052881992" y="1.72393433246259" z="2.36895626044742" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="0.707106781186548" qx="0.0" qy="-0.707106781186547" qz="-0.0" />
+      <entity name="TopCap_GEODE_150" castShadows="true" receiveShadows="true" meshFile="TopCap_GEODE_150.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert130" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="default_object_151">
+      <position x="-4.92823016566005" y="2.15421715240479" z="2.35256284071097" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+    <node name="Bottle_Base_GEODE_152">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Bottle_Base_GEODE_152" castShadows="true" receiveShadows="true" meshFile="Bottle_Base_GEODE_152.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert135" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Bottle_Piece_GEODE_153">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Bottle_Piece_GEODE_153" castShadows="true" receiveShadows="true" meshFile="Bottle_Piece_GEODE_153.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert136" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Bottle_Filter_GEODE_154">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Bottle_Filter_GEODE_154" castShadows="true" receiveShadows="true" meshFile="Bottle_Filter_GEODE_154.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert134" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Bottle_Nipple_GEODE_155">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Bottle_Nipple_GEODE_155" castShadows="true" receiveShadows="true" meshFile="Bottle_Nipple_GEODE_155.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert137" />
+        </subentities>
+      </entity>
+    </node>
+    <node name="Bottle_Cap_GEODE_156">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="Bottle_Cap_GEODE_156" castShadows="true" receiveShadows="true" meshFile="Bottle_Cap_GEODE_156.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert138" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    <node name="default_object_157">
+      <position x="0.448925269189043" y="0.113841330616922" z="-0.392451537644667" />
+      <scale x="4663.0888843" y="4663.0888843" z="4663.0888843" />
+      <rotation qw="0.707106781186589" qx="-0.707106781186506" qy="0.0" qz="-0.0" />
+    <node name="transform2_158">
+      <position x="0.0" y="0.0" z="-0.0" />
+      <scale x="1.0" y="1.0" z="1.0" />
+      <rotation qw="1.0" qx="0.0" qy="0.0" qz="-0.0" />
+      <entity name="transform2_158" castShadows="true" receiveShadows="true" meshFile="transform2_158.mesh">
+        <subentities>
+          <subentity index="0" materialName="lambert139" />
+        </subentities>
+      </entity>
+    </node>
+    </node>
+    </node>
+  </nodes>
+</scene>

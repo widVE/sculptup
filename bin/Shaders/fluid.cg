@@ -1,0 +1,257 @@
+bool isSolidCell(sampler3D tex, float3 x) {
+    return (tex3D(tex, x) >= 1.0);
+}
+
+bool isBoundaryCell(float3 coord, float thres = 0.01) {
+    return (coord.x < thres || coord.x > (1-thres) ||
+            coord.y < thres || coord.y > (1-thres) ||
+            coord.z < thres || coord.z > (1-thres) ) ;
+}
+
+bool isNonEmptyCell(sampler3D tex, float3 x) 
+{
+    return (tex3D(tex, x).a > 0.0);
+}
+
+float4 addrgb(float3 x : TEXCOORD0,
+        uniform float3 center,
+        uniform sampler3D tex,
+        uniform float radius = 0.5,
+        uniform float thres = 0.05,
+        uniform float scale = 1.0
+        ) : COLOR
+{
+    if (isBoundaryCell(x, thres) == 1)
+    {
+        return float4(0.0);
+    }
+    float4 c = tex3D(tex, x);
+    float d = (100.0 * scale) * length(x - center);
+    float mag = (1000 * radius * (scale) / pow(d+0.0001, 4.0));
+
+    return c + float4(mag);
+}
+
+float4 brownian(float3 x : TEXCOORD0) : COLOR
+       
+{
+    //float3 n = float3(sin(x.x), sin(x.y), cos(x.z));
+    //n *= 12.8;
+    float3 n = float3(0.0, -0.666, 0.0);
+    return float4(n, 0.0);
+}
+
+float4 boundaries(float3 x : TEXCOORD0 ) : COLOR
+{
+    if (isBoundaryCell(x)) {
+        return float4(0.0, 0.0, 0.0, 1.0);
+    }
+    /*float thres = 0.3;
+    if (x.x > thres && x.x < (1-thres) &&
+            x.y > thres && x.y < (1-thres) &&
+            x.z > thres && x.z < (1-thres) ) {
+        return float4(0.0, 0.0, 0.0, 1.5);
+    }*/
+    return 0.0f;
+}
+
+float4 advect(float3 x : TEXCOORD0,
+        uniform sampler3D velocity,
+        uniform sampler3D phi,
+        uniform sampler3D obstacles,
+        uniform float timestep = 0.01,
+        uniform float3 voxelSize = float3(1.0/128.0, 1.0/128.0, 1.0/128.0)
+        ) : COLOR
+{
+    //if (isNonEmptyCell(obstacles, x))
+        //return 0.0;
+	float3 cL = x + float3( 1, 0, 0) * voxelSize;
+    float3 cR = x + float3(-1, 0, 0) * voxelSize;
+    float3 cB = x + float3( 0, 1, 0) * voxelSize;
+    float3 cT = x + float3( 0,-1, 0) * voxelSize;
+    float3 cD = x + float3( 0, 0, 1) * voxelSize;
+    float3 cU = x + float3( 0, 0,-1) * voxelSize;
+
+	float3 pos = x;
+    //float3 vel = tex3D(velocity, x).rgb;
+    float3 vel = float3(0.0,-0.7, -0.7);
+    pos -= (timestep * vel);
+	//pos -= vel;
+	//pos += float3(0, 1.0/128.0, 0.0);
+	float4 density = tex3D(phi, pos);
+
+    if (isBoundaryCell(cL)) density *= 10.0;
+    if (isBoundaryCell(cR)) density *= 10.0;
+    if (isBoundaryCell(cB)) density *= 10.0;
+    if (isBoundaryCell(cT)) density *= 10.0;
+    if (isBoundaryCell(cD)) density *= 10.0;
+    if (isBoundaryCell(cU)) density *= 10.0;
+	return density;
+}
+
+float4 advectmac(float3 x : TEXCOORD0,
+        uniform sampler3D velocity,
+        uniform sampler3D phi,
+        uniform sampler3D phi_n_hat,
+        uniform sampler3D phi_n_1_hat,
+        uniform float timestep = 0.01,
+        uniform float3 voxelSize = float3(1.0/128.0, 1.0/128.0, 1.0/128.0)
+        ) : COLOR
+{
+    float3 vel = tex3D(velocity, x).rgb;
+    float3 npos = x - (timestep * vel);
+
+    float3 ht = 0.5*voxelSize;
+    float3 c1 = npos + float3(-1,-1,-1) * ht;
+    float3 c2 = npos + float3(-1,-1, 1) * ht;
+    float3 c3 = npos + float3(-1, 1,-1) * ht;
+    float3 c4 = npos + float3(-1, 1, 1) * ht;
+    float3 c5 = npos + float3( 1,-1,-1) * ht;
+    float3 c6 = npos + float3( 1,-1, 1) * ht;
+    float3 c7 = npos + float3( 1, 1,-1) * ht;
+    float3 c8 = npos + float3( 1, 1, 1) * ht;
+
+    float4 nodeVals[8];
+    nodeVals[0] = tex3D(phi, c1);
+    nodeVals[1] = tex3D(phi, c2);
+    nodeVals[2] = tex3D(phi, c3);
+    nodeVals[3] = tex3D(phi, c4);
+    nodeVals[4] = tex3D(phi, c5);
+    nodeVals[5] = tex3D(phi, c6);
+    nodeVals[6] = tex3D(phi, c7);
+    nodeVals[7] = tex3D(phi, c8);
+
+    float4 phiMin = min(min(min(min(min(min(min(
+        nodeVals[0], nodeVals[1]), nodeVals[2]), nodeVals[3]), 
+        nodeVals[4]), nodeVals[5]), nodeVals[6]), nodeVals[7]);
+    float4 phiMax = max(max(max(max(max(max(max(
+        nodeVals[0], nodeVals[1]), nodeVals[2]), nodeVals[3]), 
+        nodeVals[4]), nodeVals[5]), nodeVals[6]), nodeVals[7]);
+
+    float4 r = tex3D(phi_n_1_hat, npos) + 0.5 * (tex3D(phi, x) - tex3D(phi_n_hat, x));
+    r = max(min(r, phiMax), phiMin);
+
+    return r;
+}
+
+
+float4 jacobi(float3 x : TEXCOORD0,
+        uniform sampler3D pressure, 
+        uniform sampler3D div,      
+        uniform sampler3D obstacles,
+        uniform float3 voxelSize = float3(1.0/128.0, 1.0/128.0, 1.0/128.0)
+        ) : COLOR
+{
+    float3 cL = x + float3( 1, 0, 0) * voxelSize;
+    float3 cR = x + float3(-1, 0, 0) * voxelSize;
+    float3 cB = x + float3( 0, 1, 0) * voxelSize;
+    float3 cT = x + float3( 0,-1, 0) * voxelSize;
+    float3 cD = x + float3( 0, 0, 1) * voxelSize;
+    float3 cU = x + float3( 0, 0,-1) * voxelSize;
+
+    float dC = tex3D(div, x).a;
+    float pC = tex3D(pressure, x).a;
+    float pL = tex3D(pressure, cL).a;
+    float pR = tex3D(pressure, cR).a;
+    float pB = tex3D(pressure, cB).a;
+    float pT = tex3D(pressure, cT).a;
+    float pD = tex3D(pressure, cD).a;
+    float pU = tex3D(pressure, cU).a;
+
+    if (isSolidCell(obstacles, cL)) pL = pC;
+    if (isSolidCell(obstacles, cR)) pR = pC;
+    if (isSolidCell(obstacles, cB)) pB = pC;
+    if (isSolidCell(obstacles, cT)) pT = pC;
+    if (isSolidCell(obstacles, cD)) pD = pC;
+    if (isSolidCell(obstacles, cU)) pU = pC;
+
+    float tmp = (pL + pR + pB + pT + pU + pD - dC) / 6.0;
+    return float4(0.0, 0.0, 0.0, tmp);
+}
+
+float4 diverg(float3 x : TEXCOORD0,
+        uniform sampler3D velocity,
+        uniform sampler3D obstacles,
+        uniform float3 voxelSize = float3(1.0/128.0, 1.0/128.0, 1.0/128.0)
+        ) : COLOR
+{
+    float3 cL = x + float3( 1, 0, 0) * voxelSize;
+    float3 cR = x + float3(-1, 0, 0) * voxelSize;
+    float3 cB = x + float3( 0, 1, 0) * voxelSize;
+    float3 cT = x + float3( 0,-1, 0) * voxelSize;
+    float3 cD = x + float3( 0, 0, 1) * voxelSize;
+    float3 cU = x + float3( 0, 0,-1) * voxelSize;
+
+    float3 fieldL = tex3D(velocity, cL).rgb;
+    float3 fieldR = tex3D(velocity, cR).rgb;
+    float3 fieldB = tex3D(velocity, cB).rgb;
+    float3 fieldT = tex3D(velocity, cT).rgb;
+    float3 fieldD = tex3D(velocity, cD).rgb;
+    float3 fieldU = tex3D(velocity, cU).rgb;
+
+    if (isBoundaryCell(cL)) fieldL = tex3D(obstacles, cL).rgb;
+    if (isBoundaryCell(cR)) fieldR = tex3D(obstacles, cR).rgb;
+    if (isBoundaryCell(cB)) fieldB = tex3D(obstacles, cB).rgb;
+    if (isBoundaryCell(cT)) fieldT = tex3D(obstacles, cT).rgb;
+    if (isBoundaryCell(cD)) fieldD = tex3D(obstacles, cD).rgb;
+    if (isBoundaryCell(cU)) fieldU = tex3D(obstacles, cU).rgb;
+
+    float div = (0.5 * ((fieldR.r - fieldL.r) + (fieldT.g - fieldB.g) + (fieldU.b - fieldD.b)));
+    return float4(0.0, 0.0, 0.0, div);
+}
+
+float4 project(float3 x : TEXCOORD0,
+        uniform sampler3D pressure,
+        uniform sampler3D vel,
+        uniform sampler3D obstacles,
+        uniform float3 voxelSize = float3(1.0/128.0, 1.0/128.0, 1.0/128.0)
+        ) : COLOR
+{
+    if (isSolidCell(obstacles, x)) {
+         float3 vect = tex3D(obstacles, x).rgb;
+         return float4(vect, 0.0);
+    }
+
+    float3 cL = x + float3( 1, 0, 0) * voxelSize;
+    float3 cR = x + float3(-1, 0, 0) * voxelSize;
+    float3 cB = x + float3( 0, 1, 0) * voxelSize;
+    float3 cT = x + float3( 0,-1, 0) * voxelSize;
+    float3 cD = x + float3( 0, 0, 1) * voxelSize;
+    float3 cU = x + float3( 0, 0,-1) * voxelSize;
+
+    float pC = tex3D(pressure, x).a;
+    float pL = tex3D(pressure, cL).a;
+    float pR = tex3D(pressure, cR).a;
+    float pB = tex3D(pressure, cB).a;
+    float pT = tex3D(pressure, cT).a;
+    float pD = tex3D(pressure, cD).a;
+    float pU = tex3D(pressure, cU).a;
+
+    float3 vL = tex3D(obstacles, cL).rgb;
+    float3 vR = tex3D(obstacles, cR).rgb;
+    float3 vB = tex3D(obstacles, cB).rgb;
+    float3 vT = tex3D(obstacles, cT).rgb;
+    float3 vD = tex3D(obstacles, cD).rgb;
+    float3 vU = tex3D(obstacles, cU).rgb;
+    float3 obstV = float3(0.0, 0.0, 0.0);
+    float3 vMask = float3(1.0, 1.0, 1.0);
+
+    if (isBoundaryCell(cL)) {
+        pL = pC; obstV.x = vL.x; vMask.x = 0; }
+    if (isBoundaryCell(cR)) {
+        pR = pC; obstV.x = vR.x; vMask.x = 0; }
+    if (isBoundaryCell(cB)) {
+        pB = pC; obstV.y = vB.y; vMask.y = 0; }
+    if (isBoundaryCell(cT)) {
+        pT = pC; obstV.y = vT.y; vMask.y = 0; }
+    if (isBoundaryCell(cD)) {
+        pD = pC; obstV.z = vD.z; vMask.z = 0; }
+    if (isBoundaryCell(cU)) {
+        pU = pC; obstV.z = vU.z; vMask.z = 0; }
+
+    float3 gradP = (0.5)*float3(pR-pL, pT-pB, pU-pD);
+    float3 oldVel = tex3D(vel, x).rgb;
+    float3 newVel = oldVel - gradP;
+    newVel = (vMask * newVel) + obstV;
+    return float4(newVel,0.0);
+}

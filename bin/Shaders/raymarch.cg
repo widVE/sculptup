@@ -1,0 +1,134 @@
+//
+// Render a 3D volume using ray marching
+//
+// Author: Simon Green
+// Email: sdkfeedback@nvidia.com
+//
+// Copyright (c) NVIDIA Corporation. All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+
+struct Ray {
+    float3 o;   // origin
+    float3 d;   // direction
+};
+
+// calculate intersection between ray and box
+// http://www.siggraph.org/education/materials/HyperGraph/raytrace/rtinter3.htm
+bool
+IntersectBox(Ray r, float3 boxmin, float3 boxmax, out float tnear, out float tfar)
+{
+    // compute intersection of ray with all six bbox planes
+    float3 invR = 1.0 / r.d;
+    float3 tbot = invR * (boxmin.xyz - r.o);
+    float3 ttop = invR * (boxmax.xyz - r.o);
+
+    // re-order intersections to find smallest and largest on each axis
+    float3 tmin = min (ttop, tbot);
+    float3 tmax = max (ttop, tbot);
+
+    // find the largest tmin and the smallest tmax
+    float2 t0 = max (tmin.xx, tmin.yz);
+    float largest_tmin = max (t0.x, t0.y);
+    t0 = min (tmax.xx, tmax.yz);
+    float smallest_tmax = min (t0.x, t0.y);
+
+    // check for hit
+    bool hit;
+    if ((largest_tmin > smallest_tmax)) 
+        hit = false;
+    else
+        hit = true;
+
+    tnear = largest_tmin;
+    tfar = smallest_tmax;
+
+    return hit;
+}
+
+// vertex program
+void RayMarchVP(in float4 pos : POSITION,
+                uniform float4x4 modelViewProj : state.matrix.mvp,
+                uniform float4x4 modelViewInv : state.matrix.modelview.inverse,
+                out float4 o_hpos : POSITION,
+                out Ray eyeray : TEXCOORD0
+                )
+{
+    // calculate world space eye ray
+    // origin
+    eyeray.o = mul(modelViewInv, float4(0, 0, 0, 1)).xyz;
+    // direction
+    eyeray.d = pos.xyz - eyeray.o;
+
+    o_hpos = mul(modelViewProj, pos);
+}
+
+#define FRONT_TO_BACK
+
+// fragment program
+float4 RayMarchFP(Ray eyeray : TEXCOORD0,
+                  sampler3D volumeTex,
+                  uniform int steps = 128,
+//                uniform float stepsize = 0.1,
+                  uniform float brightness = 1.0,
+                  uniform float density = 1.0,
+                  uniform float threshold = 0.99,
+                  uniform float3 boxMin = { -1.0, -1.0, -1.0 },
+                  uniform float3 boxMax = { 1.0, 1.0, 1.0 }
+                  ) : COLOR
+{
+    float stepsize = 1.7 / steps;
+
+    eyeray.d = normalize(eyeray.d);
+
+    // calculate ray intersection with bounding box
+    float tnear, tfar;
+    bool hit = IntersectBox(eyeray, boxMin, boxMax, tnear, tfar);
+    if (!hit) discard;
+    if (tnear < 0.0) tnear = 0.0;
+
+    // calculate intersection points
+    float3 Pnear = eyeray.o + eyeray.d*tnear;
+    float3 Pfar = eyeray.o + eyeray.d*tfar;
+    // convert to texture space
+    Pnear = Pnear*0.5 + 0.5;
+    Pfar = Pfar*0.5 + 0.5;
+    
+    // march along ray, accumulating color
+    float4 c = 0;
+
+#ifdef FRONT_TO_BACK
+    // use front-to-back rendering
+    float3 P = Pnear;
+    float3 Pstep = eyeray.d * stepsize;
+#else
+    // use back-to-front rendering
+    float3 P = Pfar;
+    float3 Pstep = -eyeray.d * stepsize;
+#endif
+
+    for(int i=0; i<steps; i++) {
+        float4 s = tex3D(volumeTex, P);
+
+        s = abs(s);
+        s.rgb = float3(1.0, 0.0, 0.0);
+        s.a = clamp(s.a, 0, 1);
+        s.a *= density;
+
+#ifdef FRONT_TO_BACK
+        s.rgb *= s.a;   // premultiply alpha
+        c = (1 - c.a)*s + c;
+        // early exit if opaque
+        if (c.a > threshold)
+            break;
+#else
+        c = lerp(c, s, s.a);
+#endif
+
+        P += Pstep;
+    }
+    c.rgb *= brightness;
+
+    return c;
+//    return (tfar - tnear);
+//    return hit;
+}

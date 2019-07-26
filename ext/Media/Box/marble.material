@@ -1,0 +1,13 @@
+material Box/Marble
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture marble-10.jpg
+			}
+		}
+	}
+}

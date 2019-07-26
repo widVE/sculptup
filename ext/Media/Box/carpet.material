@@ -1,0 +1,13 @@
+material Box/Carpet
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture carpet.jpg
+			}
+		}
+	}
+}

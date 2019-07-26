@@ -1,0 +1,13 @@
+material Box/Brick
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture brick.png
+			}
+		}
+	}
+}

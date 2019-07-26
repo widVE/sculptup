@@ -1,0 +1,13 @@
+material Box/Pillar
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture marble-13.jpg
+			}
+		}
+	}
+}

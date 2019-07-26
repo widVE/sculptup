@@ -1,0 +1,48 @@
+<scene formatVersion="1.0">
+	<resourceLocations>
+		<resourceLocation type="FileSystem" name="..\ext\Media\levels\2013-02-13-11-03-52\mesh" recursive="false"/>
+	</resourceLocations>
+	<nodes>
+		<node name="2013-02-13-11-03-52_sculptedNode_0_parent">
+			<position x="-1.154" y="-0.128" z="-5.081"/>
+			<scale x="1.000" y="1.000" z="1.000"/>
+			<rotation qw="1.000" qx="0.000" qy="0.000" qz="0.000"/>
+			<entity name="2013-02-13-11-03-52_sculptedNode_0" castShadows="true" receiveShadows="true" meshFile="sculptedMesh_0.mesh" physicsShape="None">
+				<subentities>
+					<subentity index="0" materialName="Simple_Perpixel"/>
+				</subentities>
+			</entity>
+		</node>
+		<node name="2013-02-13-11-03-52_sculptedNode_00_parent">
+			<position x="0.040" y="-0.152" z="-5.220"/>
+			<scale x="0.965" y="0.965" z="0.965"/>
+			<rotation qw="0.339" qx="0.000" qy="0.941" qz="0.000"/>
+			<entity name="2013-02-13-11-03-52_sculptedNode_00" castShadows="true" receiveShadows="true" meshFile="sculptedMesh_0.mesh" physicsShape="None">
+				<subentities>
+					<subentity index="0" materialName="Simple_Perpixel"/>
+				</subentities>
+			</entity>
+		</node>
+		<node name="2013-02-13-11-03-52_sculptedNode_1_parent">
+			<position x="4.615" y="-0.085" z="-9.293"/>
+			<scale x="1.000" y="1.000" z="1.000"/>
+			<rotation qw="1.000" qx="0.000" qy="0.000" qz="0.000"/>
+			<entity name="2013-02-13-11-03-52_sculptedNode_1" castShadows="true" receiveShadows="true" meshFile="sculptedMesh_1.mesh" physicsShape="None">
+				<subentities>
+					<subentity index="0" materialName="Simple_Perpixel"/>
+				</subentities>
+			</entity>
+		</node>
+		<node name="2013-02-13-11-03-52_sculptedNode_2_parent">
+			<position x="-0.297" y="0.163" z="-11.735"/>
+			<scale x="2.125" y="2.125" z="2.125"/>
+			<rotation qw="1.000" qx="0.000" qy="0.000" qz="0.000"/>
+			<entity name="2013-02-13-11-03-52_sculptedNode_2" castShadows="true" receiveShadows="true" meshFile="sculptedMesh_2.mesh" physicsShape="None">
+				<subentities>
+					<subentity index="0" materialName="Simple_Perpixel"/>
+				</subentities>
+			</entity>
+		</node>
+	</nodes>
+</scene>
+

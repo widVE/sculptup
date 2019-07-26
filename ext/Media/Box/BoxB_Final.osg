@@ -1,0 +1,157 @@
+Group {
+  name "C:\\Users\\brennanlab\\Desktop\\CubeTesterTexture\\Boxes\\BoxTest\\data\\BoxB_Final.obj"
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  num_children 1
+  Geode {
+    name "Box_B"
+    nodeMask 0xffffffff
+    cullingActive TRUE
+    num_drawables 1
+    Geometry {
+      DataVariance STATIC
+      StateSet {
+        DataVariance STATIC
+        rendering_hint DEFAULT_BIN
+        renderBinMode INHERIT
+        Material {
+          ColorMode OFF
+          ambientColor 0.3 0.3 0.3 1
+          diffuseColor 1 1 1 1
+          specularColor 0 0 0 1
+          emissionColor 0 0 0 1
+          shininess 0
+        }
+        textureUnit 0 {
+          GL_TEXTURE_2D ON
+          Texture2D {
+            file "BoxB_1024_White.bmp"
+            wrap_s REPEAT
+            wrap_t REPEAT
+            wrap_r REPEAT
+            min_filter LINEAR_MIPMAP_LINEAR
+            mag_filter LINEAR
+            maxAnisotropy 1
+            borderColor 0 0 0 0
+            borderWidth 0
+            useHardwareMipMapGeneration TRUE
+            unRefImageDataAfterApply TRUE
+            internalFormatMode USE_IMAGE_DATA_FORMAT
+            resizeNonPowerOfTwo FALSE
+          }
+        }
+      }
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 6
+      {
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          1 2 0 3 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          7 4 6 5 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          23 20 22 21 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          19 16 18 17 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          13 14 12 15 
+        }
+        DrawElementsUShort TRIANGLE_STRIP 4
+        {
+          9 10 8 11 
+        }
+      }
+      VertexArray Vec3Array 24
+      {
+        -0.139536 -0.295912 -0.372934
+        0.139536 -0.295912 -0.372934
+        0.139536 -0.295912 0.372934
+        -0.139536 -0.295912 0.372934
+        -0.139536 -0.295912 0.372934
+        0.139536 -0.295912 0.372934
+        0.139536 0.295912 0.372934
+        -0.139536 0.295912 0.372934
+        -0.139536 0.295912 0.372934
+        0.139536 0.295912 0.372934
+        0.139536 0.295912 -0.372934
+        -0.139536 0.295912 -0.372934
+        -0.139536 0.295912 -0.372934
+        0.139536 0.295912 -0.372934
+        0.139536 -0.295912 -0.372934
+        -0.139536 -0.295912 -0.372934
+        0.139536 -0.295912 -0.372934
+        0.139536 0.295912 -0.372934
+        0.139536 0.295912 0.372934
+        0.139536 -0.295912 0.372934
+        -0.139536 0.295912 -0.372934
+        -0.139536 -0.295912 -0.372934
+        -0.139536 -0.295912 0.372934
+        -0.139536 0.295912 0.372934
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 24
+      {
+        0 -1 -0
+        0 -1 -0
+        0 -1 -0
+        0 -1 -0
+        0 0 1
+        0 0 1
+        0 0 1
+        0 0 1
+        0 1 -0
+        0 1 -0
+        0 1 -0
+        0 1 -0
+        0 -0 -1
+        0 -0 -1
+        0 -0 -1
+        0 -0 -1
+        1 -0 0
+        1 -0 0
+        1 -0 0
+        1 -0 0
+        -1 -0 0
+        -1 -0 0
+        -1 -0 0
+        -1 -0 0
+      }
+      TexCoordArray 0 Vec2Array 24
+      {
+        0.365887 0.500924
+        0.570937 0.500924
+        0.570937 0.893414
+        0.365887 0.893414
+        0.000998 0.000998
+        0.206048 0.000998
+        0.206048 0.499076
+        0.000998 0.499076
+        0.156697 0.500924
+        0.361747 0.500924
+        0.361747 0.893414
+        0.156697 0.893414
+        0.211678 0.000998
+        0.416729 0.000998
+        0.416729 0.499076
+        0.211678 0.499076
+        0.422163 0.499076
+        0.422163 0.000998
+        0.846088 0.000998
+        0.846088 0.499076
+        0.575077 0.999002
+        0.575077 0.500924
+        0.999002 0.500924
+        0.999002 0.999002
+      }
+    }
+  }
+}

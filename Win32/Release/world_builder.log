@@ -1,0 +1,73 @@
+﻿Build started 8/3/2017 12:35:10 PM.
+     1>Project "S:\apps\dual_test\sculptup\world_builder.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\include /I.\ext\include /I..\FionaLib\include /I..\FionaLib /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D BOOST_NO_TYPEID /D WITHOUT_FBX /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Release\\" /Fd"Win32\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\WorldBuilderScene.cpp
+         WorldBuilderScene.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"S:\apps\dual_test\sculptup\Win32\Release\world_builder.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\ext\lib /LIBPATH:..\FionaLib\lib xinput.lib FionaLib.lib leap.lib cg.lib cggl.lib vrpn.lib glew32s.lib glut32.lib ogreMain.lib ogreTerrain.lib ogreOggSound.lib nxogre.lib critterstatic.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"S:\apps\dual_test\sculptup\Win32\Release\world_builder.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:\apps\dual_test\sculptup\Win32\Release\world_builder.lib" /MACHINE:X86 /SAFESEH Win32\Release\framebufferObject.obj
+         Win32\Release\main.obj
+         Win32\Release\OgreDotScene.obj
+         Win32\Release\Shader.obj
+         Win32\Release\VolumeBuffer.obj
+         Win32\Release\VolumeRender.obj
+         Win32\Release\VRWBAction.obj
+         Win32\Release\WorldBuilderScene.obj
+         Win32\Release\WorldBuilderSystem.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>framebufferObject.obj : warning LNK4049: locally defined symbol ___glewFramebufferTexture1D imported
+     1>framebufferObject.obj : warning LNK4049: locally defined symbol ___glewBindFramebufferEXT imported
+     1>framebufferObject.obj : warning LNK4049: locally defined symbol ___glewBindFramebuffer imported
+     1>framebufferObject.obj : warning LNK4049: locally defined symbol ___glewGenFramebuffers imported
+     1>framebufferObject.obj : warning LNK4049: locally defined symbol ___glewGetFramebufferAttachmentParameteriv imported
+     1>framebufferObject.obj : warning LNK4049: locally defined symbol ___glewDeleteFramebuffers imported
+     1>framebufferObject.obj : warning LNK4049: locally defined symbol ___glewFramebufferRenderbuffer imported
+     1>framebufferObject.obj : warning LNK4049: locally defined symbol ___glewFramebufferTexture2D imported
+     1>framebufferObject.obj : warning LNK4049: locally defined symbol ___glewFramebufferTexture3D imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewAttachShader imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewCreateProgram imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewGetProgramInfoLog imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewGetShaderiv imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewGetProgramiv imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewShaderSource imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewUseProgram imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewCompileShader imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewLinkProgram imported
+     1>main.obj : warning LNK4049: locally defined symbol _glewInit@0 imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewGetShaderInfoLog imported
+     1>main.obj : warning LNK4049: locally defined symbol ___glewCreateShader imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewGetUniformLocation imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewUniform1i imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewDeleteProgram imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewUniform1f imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewUniformMatrix4fv imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewGetAttribLocation imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewUniform2f imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewBindAttribLocation imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewUniform2i imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewUniformMatrix4dv imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewUniform4f imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewUniform3f imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewIsShader imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewDeleteShader imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewValidateProgram imported
+     1>Shader.obj : warning LNK4049: locally defined symbol ___glewActiveTexture imported
+     1>VolumeBuffer.obj : warning LNK4049: locally defined symbol ___glewTexSubImage3D imported
+     1>VolumeBuffer.obj : warning LNK4049: locally defined symbol ___glewTexImage3D imported
+     1>WorldBuilderScene.obj : warning LNK4049: locally defined symbol ___glewGenBuffers imported
+     1>WorldBuilderScene.obj : warning LNK4049: locally defined symbol ___glewDeleteBuffers imported
+     1>WorldBuilderScene.obj : warning LNK4049: locally defined symbol ___glewBindVertexArray imported
+     1>WorldBuilderScene.obj : warning LNK4049: locally defined symbol ___glewBufferData imported
+     1>WorldBuilderScene.obj : warning LNK4049: locally defined symbol ___glewGenVertexArrays imported
+     1>WorldBuilderScene.obj : warning LNK4049: locally defined symbol ___glewVertexAttribPointer imported
+     1>WorldBuilderScene.obj : warning LNK4049: locally defined symbol ___glewDeleteVertexArrays imported
+     1>WorldBuilderScene.obj : warning LNK4049: locally defined symbol ___glewBindBuffer imported
+     1>WorldBuilderScene.obj : warning LNK4049: locally defined symbol ___glewEnableVertexAttribArray imported
+     1>glew32s.lib(glew.obj) : warning LNK4204: 'S:\apps\dual_test\sculptup\Win32\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         world_builder.vcxproj -> S:\apps\dual_test\sculptup\Win32\Release\world_builder.exe
+     1>Done Building Project "S:\apps\dual_test\sculptup\world_builder.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:45.51

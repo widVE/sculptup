@@ -1,0 +1,13 @@
+material Box/CheckerBoard
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture checkerboard.png
+			}
+		}
+	}
+}

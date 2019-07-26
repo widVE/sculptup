@@ -1,0 +1,7 @@
+<scene formatVersion="1.0">
+	<resourceLocations>
+		<resourceLocation type="FileSystem" name="..\\ext\\Media\\levels\2014-01-30-15-05-41\mesh" recursive="false"/>
+	</resourceLocations>
+	<nodes/>
+</scene>
+

@@ -1,0 +1,2120 @@
+material lambert131
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture warmer_switch_off.jpg
+         }
+      }
+   }
+}
+
+material lambert83
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture dishwasher_rackURB.jpg
+         }
+      }
+   }
+}
+
+material lambert41
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture pillow2.jpg
+         }
+      }
+   }
+}
+
+material lambert89
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture coffeemaker_LED.jpg
+         }
+      }
+   }
+}
+
+material lambert52
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture drawer_r.jpg
+         }
+      }
+   }
+}
+
+material lambert100
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture butter.jpg
+         }
+      }
+   }
+}
+
+material lambert113
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture fruit_bowl.jpg
+         }
+      }
+   }
+}
+
+material lambert96
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture fridge_shelf_a.jpg
+         }
+      }
+   }
+}
+
+material lambert26
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture faucet_knob.jpg
+         }
+      }
+   }
+}
+
+material lambert125
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Balcony_Light_SwitchR.jpg
+         }
+      }
+   }
+}
+
+material lambert114
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture pasta_bottom.jpg
+         }
+      }
+   }
+}
+
+material lambert44
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture stoolC.jpg
+         }
+      }
+   }
+}
+
+material lambert11
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture wall_switches_plates.jpg
+         }
+      }
+   }
+}
+
+material lambert119
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture oven_rack_007.jpg
+         }
+      }
+   }
+}
+
+material lambert69
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture knife.jpg
+         }
+      }
+   }
+}
+
+material lambert105
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture fridge_door_patch.jpg
+         }
+      }
+   }
+}
+
+material lambert111
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture orange1.jpg
+         }
+      }
+   }
+}
+
+material lambert138
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Bottle_CapAO.jpg
+         }
+      }
+   }
+}
+
+material lambert42
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture microwave.jpg
+         }
+      }
+   }
+}
+
+material lambert65
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture wall_hungA_door_l.jpg
+         }
+      }
+   }
+}
+
+material lambert93
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture UW_coffee_mug_1.jpg
+         }
+      }
+   }
+}
+
+material lambert130
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture warmer_topcap.jpg
+         }
+      }
+   }
+}
+
+material lambert116
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture pasta_cap.jpg
+         }
+      }
+   }
+}
+
+material Transparent_Grey1
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture grey_trans.png
+         }
+      }
+   }
+}
+
+material lambert49
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture boiling_pot.jpg
+         }
+      }
+   }
+}
+
+material lambert103
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture coffee_table.jpg
+         }
+      }
+   }
+}
+
+material lambert70
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture fork2.jpg
+         }
+      }
+   }
+}
+
+material lambert118
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture oven_rack_013.jpg
+         }
+      }
+   }
+}
+
+material lambert6
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture counter.jpg
+         }
+      }
+   }
+}
+
+material lambert99
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture fridge_shelf_c.jpg
+         }
+      }
+   }
+}
+
+material lambert120
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture oven_rack_010.jpg
+         }
+      }
+   }
+}
+
+material lambert75
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture cabinet_door_ll.jpg
+         }
+      }
+   }
+}
+
+material lambert91
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture coffeemaker_lid.jpg
+         }
+      }
+   }
+}
+
+material lambert132
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture warmer_filler.jpg
+         }
+      }
+   }
+}
+
+material lambert127
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture warmer_body.jpg
+         }
+      }
+   }
+}
+
+material lambert94
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture freezer_door.jpg
+         }
+      }
+   }
+}
+
+material lambert48
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture stove_base.jpg
+         }
+      }
+   }
+}
+
+material lambert14
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture winframe_kitchen_bot.jpg
+         }
+      }
+   }
+}
+
+material lambert4
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture cabinet_sink_drawer.jpg
+         }
+      }
+   }
+}
+
+material lambert117
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture oven_rack001.jpg
+         }
+      }
+   }
+}
+
+material lambert68
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture spoon.jpg
+         }
+      }
+   }
+}
+
+material lambert30
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture wall_hungD.jpg
+         }
+      }
+   }
+}
+
+material lambert112
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture orange2.jpg
+         }
+      }
+   }
+}
+
+material lambert5
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture butcher_block.jpg
+         }
+      }
+   }
+}
+
+material lambert62
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture bowls_small_b.jpg
+         }
+      }
+   }
+}
+
+material lambert128
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture warmer_tray_sml.jpg
+         }
+      }
+   }
+}
+
+material lambert107
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture apple3.jpg
+         }
+      }
+   }
+}
+
+material lambert108
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture apple1.jpg
+         }
+      }
+   }
+}
+
+material lambert25
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture faucet.jpg
+         }
+      }
+   }
+}
+
+material lambert86
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture dishwasher_rackULF.jpg
+         }
+      }
+   }
+}
+
+material lambert13
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture door_laundry.jpg
+         }
+      }
+   }
+}
+
+material lambert24
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture sink.jpg
+         }
+      }
+   }
+}
+
+material lambert80
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture dishwasher_rackLLF.jpg
+         }
+      }
+   }
+}
+
+material lambert12
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture living_painting.jpg
+         }
+      }
+   }
+}
+
+material lambert81
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture dishwasher_rackLRB.jpg
+         }
+      }
+   }
+}
+
+material lambert90
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture coffee_pot_ref.jpg
+         }
+      }
+   }
+}
+
+material lambert121
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture oven_rack_022.jpg
+         }
+      }
+   }
+}
+
+material lambert37
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture wall_hungA.jpg
+         }
+      }
+   }
+}
+
+material lambert18
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture door_main.jpg
+         }
+      }
+   }
+}
+
+material lambert21
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture closet_door_l.jpg
+         }
+      }
+   }
+}
+
+material lambert98
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture fridge_shelf_d.jpg
+         }
+      }
+   }
+}
+
+material lambert10
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture ceiling.jpg
+         }
+      }
+   }
+}
+
+material lambert29
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture wall_hungD_door_l.jpg
+         }
+      }
+   }
+}
+
+material lambert57
+{
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+         depth_check on
+         depth_write off
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture stove_door.png
+         }
+      }
+   }
+}
+
+material lambert8
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture walls.jpg
+         }
+      }
+   }
+}
+
+material lambert35
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture wall_hungC.jpg
+         }
+      }
+   }
+}
+
+material lambert123
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture oven_rack_019.jpg
+         }
+      }
+   }
+}
+
+material lambert104
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture fridge_door.jpg
+         }
+      }
+   }
+}
+
+material lambert66
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture frying_pan.jpg
+         }
+      }
+   }
+}
+
+material lambert17
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture door_bedroom.jpg
+         }
+      }
+   }
+}
+
+material lambert102
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture floorlamp.jpg
+         }
+      }
+   }
+}
+
+material lambert82
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture dishwasher_rackLLB.jpg
+         }
+      }
+   }
+}
+
+material lambert50
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture captncrunch.jpg
+         }
+      }
+   }
+}
+
+material lambert55
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture pitcher.jpg
+         }
+      }
+   }
+}
+
+material lambert32
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture deco_plant.jpg
+         }
+      }
+   }
+}
+
+material lambert64
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture wall_HungA_door_r.jpg
+         }
+      }
+   }
+}
+
+material lambert58
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture stove_knob.jpg
+         }
+      }
+   }
+}
+
+material lambert9
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture ceiling_b.jpg
+         }
+      }
+   }
+}
+
+material lambert53
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture kettle.jpg
+         }
+      }
+   }
+}
+
+material lambert74
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture frootloops.jpg
+         }
+      }
+   }
+}
+
+material lambert101
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture creamer.jpg
+         }
+      }
+   }
+}
+
+material lambert85
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture dishwasher_rackULB.jpg
+         }
+      }
+   }
+}
+
+material lambert78
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture spiceB.jpg
+         }
+      }
+   }
+}
+
+material lambert3
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture cabinet_sink_door.jpg
+         }
+      }
+   }
+}
+
+material lambert73
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture FORUMLAL.JPG
+         }
+      }
+   }
+}
+
+material lambert39
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture sofa_small_cushions.jpg
+         }
+      }
+   }
+}
+
+material lambert16
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture door_bathroom.jpg
+         }
+      }
+   }
+}
+
+material lambert115
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture pasta_sauce.jpg
+         }
+      }
+   }
+}
+
+material lambert2
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture floors.jpg
+         }
+      }
+   }
+}
+
+material lambert72
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture FORUMLA.JPG
+         }
+      }
+   }
+}
+
+material lambert87
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture dishwasher_door.jpg
+         }
+      }
+   }
+}
+
+material lambert124
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Balcony_Light_SwitchL.jpg
+         }
+      }
+   }
+}
+
+material lambert122
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture oven_rack_016.jpg
+         }
+      }
+   }
+}
+
+material lambert109
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture apple2.jpg
+         }
+      }
+   }
+}
+
+material lambert51
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture drawer_l.jpg
+         }
+      }
+   }
+}
+
+material lambert36
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture wall_hungB.jpg
+         }
+      }
+   }
+}
+
+material lambert1
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.4 0.4 0.4 1.0
+         ambient 0.4 0.4 0.4 1.0
+      }
+   }
+}
+
+material lambert20
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture door_balcony_r.jpg
+         }
+      }
+   }
+}
+
+material lambert134
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture bottle_filter.jpg
+         }
+      }
+   }
+}
+
+material lambert67
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture cooking_tools.jpg
+         }
+      }
+   }
+}
+
+material lambert47
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture kitchen_photos.jpg
+         }
+      }
+   }
+}
+
+material lambert63
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture bowls_small_a.jpg
+         }
+      }
+   }
+}
+
+material lambert137
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.8 0.8 0.8 1.0
+         ambient 0.8 0.8 0.8 1.0
+      }
+   }
+}
+
+material lambert136
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture bottle_piece.jpg
+         }
+      }
+   }
+}
+
+material lambert135
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture bottle_base.jpg
+         }
+      }
+   }
+}
+
+material Transparent_Grey
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture grey_trans.png
+         }
+      }
+   }
+}
+
+material lambert54
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture knife_block.jpg
+         }
+      }
+   }
+}
+
+material lambert97
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture fridge_shelf_b.jpg
+         }
+      }
+   }
+}
+
+material lambert19
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture door_balcony_l.jpg
+         }
+      }
+   }
+}
+
+material lambert84
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture dishwasher_rackURF.jpg
+         }
+      }
+   }
+}
+
+material lambert77
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture spiceA.jpg
+         }
+      }
+   }
+}
+
+material lambert79
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture spiceC.jpg
+         }
+      }
+   }
+}
+
+material lambert28
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture fridge_base.jpg
+         }
+      }
+   }
+}
+
+material lambert110
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture bananas.jpg
+         }
+      }
+   }
+}
+
+material lambert126
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture cooktop_off.jpg
+         }
+      }
+   }
+}
+
+material lambert88
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture coffeemaker.jpg
+         }
+      }
+   }
+}
+
+material lambert71
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture cabinet_door_lr.jpg
+         }
+      }
+   }
+}
+
+material lambert106
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture milk_carton.jpg
+         }
+      }
+   }
+}
+
+material lambert38
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture sofa_small.jpg
+         }
+      }
+   }
+}
+
+material lambert34
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture vases.jpg
+         }
+      }
+   }
+}
+
+material lambert92
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture coffeemaker_filter.jpg
+         }
+      }
+   }
+}
+
+material lambert61
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture bowls_small_c.jpg
+         }
+      }
+   }
+}
+
+material lambert22
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture closet_door_r.jpg
+         }
+      }
+   }
+}
+
+material lambert33
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture deco_china.jpg
+         }
+      }
+   }
+}
+
+material Color_007
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.227450980392157 0.227450980392157 0.227450980392157 1.0
+         ambient 0.227450980392157 0.227450980392157 0.227450980392157 1.0
+      }
+   }
+}
+
+material lambert46
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture stoolA.jpg
+         }
+      }
+   }
+}
+
+material lambert76
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture toaster.jpg
+         }
+      }
+   }
+}
+
+material lambert60
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture plates_small.jpg
+         }
+      }
+   }
+}
+
+material lambert56
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture spice_rack.jpg
+         }
+      }
+   }
+}
+
+material lambert59
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture plates_large.jpg
+         }
+      }
+   }
+}
+
+material lambert139
+{
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+         depth_check on
+         depth_write off
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Reflect.png
+         }
+      }
+   }
+}
+
+material lambert23
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture dishwasher_base.jpg
+         }
+      }
+   }
+}
+
+material lambert27
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture paper_towel.jpg
+         }
+      }
+   }
+}
+
+material lambert129
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture warmer_tray_lrg.jpg
+         }
+      }
+   }
+}
+
+material lambert7
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture carpet.jpg
+         }
+      }
+   }
+}
+
+material lambert31
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture wall_hung_corner.jpg
+         }
+      }
+   }
+}
+
+material lambert95
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture wall_hungD_door_r.jpg
+         }
+      }
+   }
+}
+
+material lambert15
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture winframe_kitchen_top.jpg
+         }
+      }
+   }
+}
+
+material lambert40
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture pillow1.jpg
+         }
+      }
+   }
+}
+
+material lambert45
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture stoolB.jpg
+         }
+      }
+   }
+}
+
+material SketchupDefault
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 1.0 1.0
+         ambient 1.0 1.0 1.0
+      }
+   }
+}
+
+material SketchupDefault_Back
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.670588235294118 0.690196078431373 0.8
+         ambient 0.670588235294118 0.690196078431373 0.8
+      }
+   }
+}

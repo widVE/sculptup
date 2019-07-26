@@ -1,0 +1,35 @@
+// Example particle systems
+
+// smoke
+particle_system nxogre.zz
+{
+	material        	nxogre.sleeping
+	particle_width  	0.5
+	particle_height 	0.5
+	quota           	100
+	billboard_type  	point
+    local_space         false
+    
+	// Area emitter
+	emitter Point
+	{
+		emission_rate 5
+		time_to_live 2
+		direction 0 1 0
+		velocity_min 0.5
+		velocity_max 1  	
+	}
+    
+    affector DirectionRandomiser
+    {
+        randomness  5
+    }
+    
+    affector ColourFader
+    {
+        red -0.25
+        green -0.25
+        blue -0.25
+    }
+
+}
